@@ -15,7 +15,7 @@ public class AjaxIdDuplicationCheck implements Command {
 	public String execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		UsersDao Dao = new UsersDao();
-		//true ID중복,false ID중복아님
+	
 		int Check = Dao.idDuplicationCheck(request.getParameter("userid"));
 		System.out.println("---"+request.getParameter("userid"));
 		return "ajax:"+Check;
