@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+/* .row-st{
+	border:1px solid black;
+} */
+/* #card1-cell div div div {
+	border:1px solid black;
+} */
+#card1 input[type=text], #card1 select{
+	margin-top:10px;
+}
+#card2 input[type=text]{
+	margin-top:10px;
+}
+
+
+textarea.form-control{
+	max-height: 500px;
+}
+.breadcrumb{
+	background-color: white;
+	box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+.custom-control-label{
+	margin-top: 12px;
+	margin-bottom: 0px;
+	padding-top: 3px;	
+}
+/* .table > thead > tr > th .custom-control,.table > thead > tr > td .custom-control {        
+    padding-bottom:22px;    
+} */
+/* .card label {    
+    margin-bottom: 15px;    
+} */
+	
