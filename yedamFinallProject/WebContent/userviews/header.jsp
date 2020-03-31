@@ -2,40 +2,40 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<link href="/yedamFinallProject/userassets/css/login-register.css"
+<link href="userassets/css/login-register.css"
 	rel="stylesheet" />
 
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.css">
+	href="userstyles/bootstrap4/bootstrap.min.css">
 <link
-	href="/yedamFinallProject/userplugins/font-awesome-4.7.0/css/font-awesome.min.css"
+	href="userplugins/font-awesome-4.7.0/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	href="userplugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	href="userplugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/animate.css">
+	href="userplugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userstyles/main_styles.css">
+	href="userstyles/main_styles.css">
 <link rel="stylesheet" type="text/css"
-	href="/yedamFinallProject/userstyles/responsive.css">
+	href="userstyles/responsive.css">
 
 
 
-<script src="/yedamFinallProject/userjs/jquery-3.2.1.min.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/popper.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.js"></script>
+<script src="userjs/jquery-3.2.1.min.js"></script>
+<script src="userstyles/bootstrap4/popper.js"></script>
+<script src="userstyles/bootstrap4/bootstrap.min.js"></script>
 <script
-	src="/yedamFinallProject/userplugins/Isotope/isotope.pkgd.min.js"></script>
+	src="userplugins/Isotope/isotope.pkgd.min.js"></script>
 <script
-	src="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="/yedamFinallProject/userplugins/easing/easing.js"></script>
-<script src="/yedamFinallProject/userjs/custom.js"></script>
+	src="userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="userplugins/easing/easing.js"></script>
+<script src="userjs/custom.js"></script>
 
 <!-- 로그인 스크립트 전체 -->
 <script type="text/javascript"
-	src="/yedamFinallProject/userassets/js/login-register.js"></script>
+	src="userassets/js/login-register.js"></script>
 <style>
 #lgBtn {
 	border: none;
@@ -130,12 +130,12 @@ a:link a:hover a:visited a:active {
 			<div class="row">
 				<div class="col-lg-12 text-right">
 					<div class="logo_container">
-						<a href="/yedamFinallProject/">Nam <span>BBang</span>
+						<a href="${pageContext.request.contextPath }/">Nam <span>BBang</span>
 						</a>
 					</div>
 					<nav class="navbar">
 						<ul class="navbar_menu">
-							<li><a href="/yedamFinallProject/">Home</a></li>
+							<li><a href="${pageContext.request.contextPath }/">Home</a></li>
 							<!-- <li><a href="./totalShop.do">Total Shop</a></li> -->
 
 							<c:if test="${CONECTR_SE eq 'SE'}">

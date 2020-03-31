@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script src="/yedamFinallProject/userjs/jquery-3.2.1.min.js"></script>
+<script src="userjs/jquery-3.2.1.min.js"></script>
 <script>
 $(function(){
 	getLocation();

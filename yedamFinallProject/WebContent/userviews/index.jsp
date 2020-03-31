@@ -12,15 +12,15 @@
 
 
 
-<script src="/yedamFinallProject/userjs/jquery-3.2.1.min.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/popper.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.js"></script>
+<script src="userjs/jquery-3.2.1.min.js"></script>
+<script src="userstyles/bootstrap4/popper.js"></script>
+<script src="userstyles/bootstrap4/bootstrap.min.js"></script>
 <script
-	src="/yedamFinallProject/userplugins/Isotope/isotope.pkgd.min.js"></script>
+	src="userplugins/Isotope/isotope.pkgd.min.js"></script>
 <script
-	src="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="/yedamFinallProject/userplugins/easing/easing.js"></script>
-<script src="/yedamFinallProject/userjs/custom.js"></script>
+	src="userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="userplugins/easing/easing.js"></script>
+<script src="userjs/custom.js"></script>
 <script type="text/javascript"
 	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2084a98791b71389462cf829531808b2&libraries=services,clusterer,drawing"></script>
 <script>

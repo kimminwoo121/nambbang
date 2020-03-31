@@ -4,9 +4,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <% 
-	String imgPath = "/yedamFinallProject/sellviews";
-	String jsPath = "/yedamFinallProject/sellviews";
-	String cssPath = "/yedamFinallProject/sellviews";
+	String imgPath = "sellviews";
+	String jsPath = "sellviews";
+	String cssPath = "sellviews";
 %>
 <html>
 	<head>
@@ -82,7 +82,7 @@
 
 				<div class="breadcrumbs d-flex flex-row align-items-center">
 					<ul>
-						<li><a href="/yedamFinallProject/">Home</a></li>
+						<li><a href="${pageContext.request.contextPath }/">Home</a></li>
 						<li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>상품판매내역</a></li>
 					</ul>
 				</div>

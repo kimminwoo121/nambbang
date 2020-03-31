@@ -9,24 +9,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Colo Shop Template">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.css">
-<link href="/yedamFinallProject/userplugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" href="/yedamFinallProject/userplugins/themify-icons/themify-icons.css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userplugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userstyles/single_styles.css">
-<link rel="stylesheet" type="text/css" href="/yedamFinallProject/userstyles/single_responsive.css">
+<link rel="stylesheet" type="text/css" href="userstyles/bootstrap4/bootstrap.min.css">
+<link href="userplugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="userplugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="userplugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="userplugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" href="userplugins/themify-icons/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="userplugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="userstyles/single_styles.css">
+<link rel="stylesheet" type="text/css" href="userstyles/single_responsive.css">
 
-<script src="/yedamFinallProject/userjs/jquery-3.2.1.min.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/popper.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.js"></script>
-<script src="/yedamFinallProject/userplugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="/yedamFinallProject/userplugins/easing/easing.js"></script>
-<script src="/yedamFinallProject/userplugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
-<script src="/yedamFinallProject/userjs/single_custom.js"></script>
+<script src="userjs/jquery-3.2.1.min.js"></script>
+<script src="userstyles/bootstrap4/popper.js"></script>
+<script src="userstyles/bootstrap4/bootstrap.min.js"></script>
+<script src="userplugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="userplugins/easing/easing.js"></script>
+<script src="userplugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="userjs/single_custom.js"></script>
 <!--지도 api script -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2084a98791b71389462cf829531808b2&libraries=services,clusterer,drawing"></script>
 <script type="text/javascript">
@@ -144,7 +144,7 @@ $(function(){
 
 				<div class="breadcrumbs d-flex flex-row align-items-center">
 					<ul>
-						<li><a href="/yedamFinallProject/">Nam Bang</a></li>
+						<li><a href="${pageContext.request.contextPath }/">Nam Bang</a></li>
 						<!-- <li><a href="categories.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li> -->
 						<li class="active"><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>${sell.goodsName }</a></li>
 					</ul>

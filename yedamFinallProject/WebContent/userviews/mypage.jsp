@@ -4,9 +4,9 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <% 
-	String imgPath = "/yedamFinallProject/sellviews";
-	String jsPath = "/yedamFinallProject/sellviews";
-	String cssPath = "/yedamFinallProject/sellviews";
+	String imgPath = "sellviews";
+	String jsPath = "sellviews";
+	String cssPath = "sellviews";
 %>
 <html lang="en">
 <head>
@@ -26,13 +26,13 @@
 <link rel="stylesheet" type="text/css" href="<%=cssPath %>/styles/contact_responsive.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<script src="/yedamFinallProject/userjs/jquery-3.2.1.min.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/popper.js"></script>
-<script src="/yedamFinallProject/userstyles/bootstrap4/bootstrap.min.js"></script>
-<script src="/yedamFinallProject/userplugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="/yedamFinallProject/userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="/yedamFinallProject/userplugins/easing/easing.js"></script>
-<script src="/yedamFinallProject/userjs/custom.js"></script>
+<script src="userjs/jquery-3.2.1.min.js"></script>
+<script src="userstyles/bootstrap4/popper.js"></script>
+<script src="userstyles/bootstrap4/bootstrap.min.js"></script>
+<script src="userplugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="userplugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="userplugins/easing/easing.js"></script>
+<script src="userjs/custom.js"></script>
 
 
 <style>
@@ -102,7 +102,7 @@ function openWay(){
 		
 						<div class="breadcrumbs d-flex flex-row align-items-center">
 							<ul>
-								<li><a href="/yedamFinallProject/">Home</a></li>
+								<li><a href="${pageContext.request.contextPath }/">Home</a></li>
 								<li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>${id }님의 구매내역</a></li>
 							</ul>
 						</div>

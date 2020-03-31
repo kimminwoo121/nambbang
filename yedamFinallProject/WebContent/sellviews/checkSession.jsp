@@ -7,7 +7,7 @@
 <title></title>
 <script type="text/javascript">
 alert("${sessionMap.returnMsg}");
-location.href ="/yedamFinallProject";
+location.href ="${pageContext.request.contextPath }/";
 </script>
 </head>
 </html>
