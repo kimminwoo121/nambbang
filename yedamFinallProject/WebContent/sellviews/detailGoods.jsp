@@ -24,7 +24,7 @@
 	<link rel="stylesheet" type="text/css" href="<%=cssPath %>/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="<%=cssPath %>/styles/contact_styles.css">
 	<link rel="stylesheet" type="text/css" href="<%=cssPath %>/styles/contact_responsive.css">
-	<script src="<%=jsPath %>/js/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
 	<style type="text/css">
 	input[type=file] {

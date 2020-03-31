@@ -26,7 +26,7 @@
 <link rel="stylesheet" type="text/css" href="<%=cssPath %>/styles/contact_responsive.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<script src="userjs/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="userstyles/bootstrap4/popper.js"></script>
 <script src="userstyles/bootstrap4/bootstrap.min.js"></script>
 <script src="userplugins/Isotope/isotope.pkgd.min.js"></script>
