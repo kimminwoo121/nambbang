@@ -10,7 +10,7 @@
 .classpath
 .settings/
 .loadpath
-.class
+*.class
 
 
 /yedamFinallProject/build/
