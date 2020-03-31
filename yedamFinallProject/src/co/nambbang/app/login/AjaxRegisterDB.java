@@ -38,14 +38,14 @@ public class AjaxRegisterDB implements Command {
 			e.printStackTrace();
 		}
 		uDto.setUserSexDSTN(request.getParameter("gender"));
-		Dao.insertRegister(uDto);//회원 테이블에 넣기
+		Dao.insertRegister(uDto);
 		
 		
 		Dao=new UsersDao();
 		LoginInfoDto lDto=new LoginInfoDto();
 		lDto.setId(request.getParameter("userid"));
 		lDto.setPassword(request.getParameter("password"));
-		Dao.insertIdPw(lDto); // 로그인 정보 테이블에 넣기
+		Dao.insertIdPw(lDto);
 
 		return null ;
 	}
