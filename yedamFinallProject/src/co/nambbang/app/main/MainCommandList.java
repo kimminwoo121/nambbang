@@ -35,6 +35,7 @@ public class MainCommandList implements Command{
 			x = (Double)session.getAttribute("x");
 			y = (Double)session.getAttribute("y");
 		}
+		session.setMaxInactiveInterval(-1);
 
 		System.out.println("x:"+ x);
 		System.out.println("y:"+ y);

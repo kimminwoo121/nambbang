@@ -24,7 +24,7 @@ public class MainCommandLogin implements Command {
 		session.setAttribute("id", id);
 		session.setAttribute("mlg", mlg);
 		
-		
+		session.setMaxInactiveInterval(-1);
 		
 		System.out.println("id = " + id);
 		System.out.println("mlg = " + mlg);
