@@ -5,8 +5,7 @@
 
 <html lang="en">
 
-<script
-	src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
+<script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js?autoload=false"></script>
 
 <style type="text/css">
 input[type=file] {
@@ -308,7 +307,7 @@ textarea {
 								<th>*가게위치</th>
 								<td><input value="${dto.lc}" style="width: 660px;"
 									type="text" id="lc" name="lc">
-									<button id="button" onclick="fn_setAddr();">검색</button></td>
+									<button id="btn2" type="button" onclick="fn_setAddr();">검색</button></td>
 							</tr>
 							<tr height="30">
 								<th>*사업주</th>
