@@ -201,7 +201,7 @@
 					<div class="col-sm-4">
 						<input type="text" class="form-control" id="goods_name" name="goods_name"/>
 					</div>
-					<label for="netprc" class="col-sm-2 control-label">상품가격</label>
+					<label for="netprc" class="col-sm-2 control-label">상품 정가</label>
 					<div class="col-sm-4">
 						<input type="text" class="form-control" id="netprc" name="netprc"/>
 					</div>
