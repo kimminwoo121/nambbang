@@ -35,7 +35,6 @@ public class AjaxRegisterDB implements Command {
 			Date date =( Date)format.parse(Sbirth);
 			uDto.setUserBirthdy(date);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		uDto.setUserSexDSTN(request.getParameter("gender"));

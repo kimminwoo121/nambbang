@@ -156,7 +156,7 @@ public class UsersDao extends DAO {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		close();
+
 		return n;
 	}
 	
@@ -175,7 +175,7 @@ public class UsersDao extends DAO {
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-		}
+		} close();
 	}
 		
 	//(Users)register
@@ -199,7 +199,7 @@ public class UsersDao extends DAO {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		close();
+
 		return n;
 	}
 	// id,pw login check
