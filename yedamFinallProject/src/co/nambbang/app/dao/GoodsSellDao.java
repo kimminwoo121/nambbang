@@ -48,7 +48,11 @@ public class GoodsSellDao extends DAO {
 		System.out.println(sql);
 		try {
 			pstmt = conn.prepareStatement(sql);
+			if(x == null)
+				x = 35.871389;
 			pstmt.setDouble(1, x);
+			if(y == null) 
+				y = 128.601389;
 			pstmt.setDouble(2, y);
 			rs = pstmt.executeQuery();
 
