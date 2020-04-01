@@ -24,6 +24,8 @@ public class MainCommandList implements Command{
 		GoodsSellDao Dao = new GoodsSellDao();
 		HttpSession session = request.getSession();		
 		Double x,y;
+		x = 35.871389;
+		y = 128.601389;
 		if(request.getParameter("x") != null) {
 			x = Double.parseDouble(request.getParameter("x"));
 			y = Double.parseDouble(request.getParameter("y"));
