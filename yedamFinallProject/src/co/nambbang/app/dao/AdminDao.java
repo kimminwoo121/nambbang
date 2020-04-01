@@ -129,7 +129,7 @@ public class AdminDao extends DAO {
 			}
 			if (dto.getsDate() != null && dto.geteDate() != null) {
 //				and += " and g.rgsde between to_date(?,'yyyy-mm-dd') and to_date(?,'yyyy-mm-dd')";
-				and += " and g.rgsde >= to_date(?,'yyyy-mm-dd') and g.rgsde >= to_date(?,'yyyy-mm-dd')+1";
+				and += " and g.rgsde >= to_date(?,'yyyy-mm-dd') and g.rgsde <= to_date(?,'yyyy-mm-dd')+1";
 			}
 			if (dto.getsDate() != null && dto.geteDate() == null) {
 				and += " and g.rgsde between ? and sysdate";
@@ -221,7 +221,7 @@ public class AdminDao extends DAO {
 				and += " and gs.sle_id = ?";
 			}
 			if (dto.getsDate() != null && dto.geteDate() != null) {
-				and += " and g.rgsde >= to_date(?,'yyyy-mm-dd') and g.rgsde >= to_date(?,'yyyy-mm-dd')+1";
+				and += " and g.rgsde >= to_date(?,'yyyy-mm-dd') and g.rgsde <= to_date(?,'yyyy-mm-dd')+1";
 			}
 			if (dto.getsDate() != null && dto.geteDate() == null) {
 				and += " and g.rgsde between ? and sysdate";
@@ -351,7 +351,7 @@ public class AdminDao extends DAO {
 				and += " and gs.sle_id = ?";
 			}
 			if (dto.getsDate() != null && dto.geteDate() != null) {
-				and += " and og.order_setlede >= to_date(?,'yyyy-mm-dd') and og.order_setlede >= to_date(?,'yyyy-mm-dd')+1";
+				and += " and og.order_setlede >= to_date(?,'yyyy-mm-dd') and og.order_setlede <= to_date(?,'yyyy-mm-dd')+1";
 			}
 			if (dto.getsDate() != null && dto.geteDate() == null) {
 				and += " and og.order_setlede between ? and sysdate";
@@ -493,7 +493,7 @@ public class AdminDao extends DAO {
 				and += " and gs.sle_id = ?";
 			}
 			if (dto.getsDate() != null && dto.geteDate() != null) {
-				and += " and og.order_setlede >= to_date(?,'yyyy-mm-dd') and og.order_setlede >= to_date(?,'yyyy-mm-dd')+1";
+				and += " and og.order_setlede >= to_date(?,'yyyy-mm-dd') and og.order_setlede <= to_date(?,'yyyy-mm-dd')+1";
 			}
 			if (dto.getsDate() != null && dto.geteDate() == null) {
 				and += " and og.order_setlede between ? and sysdate";
