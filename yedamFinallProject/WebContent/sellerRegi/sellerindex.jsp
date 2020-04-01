@@ -374,7 +374,7 @@
 						<tr height="30">
 							<th>*가게위치</th>
 							<td><input style="width: 690px;" type="text" id="lc" name="lc">
-								<button id="btn2" onclick="fn_setAddr();">검색</button></td>
+								<button id="btn2" type="button" onclick="fn_setAddr();">검색</button></td>
 						</tr>
 						<tr height="30">
 							<th>*사업주</th>
