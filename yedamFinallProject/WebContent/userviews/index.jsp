@@ -137,7 +137,14 @@
 										<div class="favorite favorite_left"></div>
 										<div
 											class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
-											<span>${list.sleEndTime.getHours() } : 00</span>
+											<span>${list.sleEndTime.getHours() }:
+											<c:if test="${list.sleEndTime.getHours()<10 }">
+												0${list.sleEndTime.getHours() }
+											</c:if>
+											<c:if test="${list.sleEndTime.getHours()>10 }">
+												${list.sleEndTime.getHours() }
+											</c:if>
+											</span>
 											<!-- 할인율 -->
 										</div>
 										<div class="product_info">

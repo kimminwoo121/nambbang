@@ -22,7 +22,8 @@ public class AjaxRegisterDB implements Command {
 		UsersDao Dao=new UsersDao();
 		UsersDto uDto = new UsersDto();
 		
-		uDto.setUserId(request.getParameter("userid"));
+		String id = request.getParameter("userid");
+		uDto.setUserId(id);
 		uDto.setUserName(request.getParameter("username"));
 		uDto.setUserMail(request.getParameter("email"));
 		uDto.setUserTelNo(request.getParameter("usertel"));
@@ -43,9 +44,10 @@ public class AjaxRegisterDB implements Command {
 		
 		Dao=new UsersDao();
 		LoginInfoDto lDto=new LoginInfoDto();
-		lDto.setId(request.getParameter("userid"));
+		lDto.setId(id);
 		lDto.setPassword(request.getParameter("password"));
 		Dao.insertIdPw(lDto);
+		Dao.insertMlg(id);
 
 		return null ;
 	}

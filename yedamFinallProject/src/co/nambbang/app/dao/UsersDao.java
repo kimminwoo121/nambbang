@@ -5,6 +5,7 @@ import java.sql.SQLException;
 
 import co.nambbang.app.dto.CertificationDto;
 import co.nambbang.app.dto.LoginInfoDto;
+import co.nambbang.app.dto.SetleDto;
 import co.nambbang.app.dto.UsersDto;
 import oracle.jdbc.OracleTypes;
 
@@ -140,7 +141,7 @@ public class UsersDao extends DAO {
 		return user_sttus;
 	}
 	
-	//�α��� ���� (LOGIN_INFO)�� �� ����
+	//
 	public int insertIdPw(LoginInfoDto idPw) {
 		int n=0;
 		String sql="insert into login_info values(?,?,'US')";
@@ -158,6 +159,25 @@ public class UsersDao extends DAO {
 		close();
 		return n;
 	}
+	
+	public void insertMlg(String id) {
+		// 회원 마일리지 입력
+		try {
+			conn.setAutoCommit(false);
+			cstmt = conn.prepareCall("{call user_mlg_pr(?)}");
+			cstmt.setString(1, id);
+			cstmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				conn.setAutoCommit(true);
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+		
 	//(Users)register
 	public int insertRegister(UsersDto user) {
 		int n=0;
