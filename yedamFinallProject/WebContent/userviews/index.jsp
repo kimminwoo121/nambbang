@@ -138,11 +138,11 @@
 										<div
 											class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 											<span>${list.sleEndTime.getHours() }:
-											<c:if test="${list.sleEndTime.getHours()<10 }">
-												0${list.sleEndTime.getHours() }
+											<c:if test="${list.sleEndTime.getMinutes()<10 }">
+												0${list.sleEndTime.getMinutes() }
 											</c:if>
-											<c:if test="${list.sleEndTime.getHours()>10 }">
-												${list.sleEndTime.getHours() }
+											<c:if test="${list.sleEndTime.getMinutes()>10 }">
+												${list.sleEndTime.getMinutes() }
 											</c:if>
 											</span>
 											<!-- 할인율 -->
