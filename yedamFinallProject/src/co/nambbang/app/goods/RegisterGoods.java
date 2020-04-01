@@ -47,8 +47,8 @@ public class RegisterGoods implements Command {
 		//파일업로드 실제 경로 구하기
 		String uploadPath = request.getSession().getServletContext().getRealPath("/uploadFile");
 
-		// 한번에 올릴 수 있는 파일 용량 : 10M로 제한
-		int maxSize = 1024 * 1024 * 10;
+		// 한번에 올릴 수 있는 파일 용량 : 20M로 제한
+		int maxSize = 1024 * 1024 * 20;
 		
 		//파일업로드 실제 경로 존재 체크
 		File path = new File(uploadPath);
