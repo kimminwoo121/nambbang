@@ -90,7 +90,7 @@ public class AdminDao extends DAO {
 				dto = new AdminMainDto();
 				dto.setOrderCnt(rs.getInt("order_cnt"));
 				dto.setOrderSum(rs.getInt("order_sum"));
-				dto.setSelerCnt(rs.getInt("setle_cnt"));
+				dto.setSetleCnt(rs.getInt("setle_cnt"));
 				dto.setSetleSum(rs.getInt("setle_sum"));
 				dto.setRefundCnt(rs.getInt("refund_cnt"));
 				dto.setRefundSum(rs.getInt("refund_sum"));
