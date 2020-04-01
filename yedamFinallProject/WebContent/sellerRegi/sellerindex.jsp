@@ -32,7 +32,7 @@
 	<script src="userjs/custom.js"></script>
 
 
-	<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js?autoload=false"></script>
+	<script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js?autoload=false"></script>
 
 	<style type="text/css">
 		input[type=file] {
