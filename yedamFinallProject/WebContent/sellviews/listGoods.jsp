@@ -196,7 +196,7 @@
 		}
 	}else{
 %>	
-						<tr><td colspan="8" class="text-center">등록 된 상품이 없습니다.</td></tr>
+						<tr><td colspan="9" class="text-center">등록 된 상품이 없습니다.</td></tr>
 <%
 	}
 %>
